@@ -1,0 +1,122 @@
+{
+  "library": {
+    "name": "Artifact Library",
+    "description": "Återanvändbara konceptuella artefakter för organisationsutveckling och systemutveckling",
+    "repository": "https://github.com/75Doc/artifact-library",
+    "last_updated": "2026-02-05",
+    "version": "1.0"
+  },
+  "artifacts": [
+    {
+      "id": "project-portfolio-map-v0.2",
+      "title": "Projekt- och portföljkarta",
+      "version": "0.2",
+      "status": "locked",
+      "type": "organizational-model",
+      "domain": "project-management",
+      "tags": [
+        "portfolio",
+        "program",
+        "project",
+        "governance",
+        "organizational-structure"
+      ],
+      "created": "2026-02-05",
+      "last_updated": "2026-02-05",
+      "file_path": "concepts/organizational-models/project-portfolio-map-v0.2.md",
+      "url": "https://raw.githubusercontent.com/75Doc/artifact-library/main/concepts/organizational-models/project-portfolio-map-v0.2.md",
+      "related_artifacts": [],
+      "applicability": [
+        "public-sector",
+        "multi-organization",
+        "infrastructure"
+      ],
+      "description": "Styrmodell för projekt, program och portföljer där organisation behandlas som en separat dimension, inte en nivå. Anpassad för offentlig sektor."
+    },
+    {
+      "id": "rf-01",
+      "title": "Ramverk för kravspecifikation av fastighetssystem",
+      "version": "1.0",
+      "status": "stable",
+      "type": "framework",
+      "domain": "requirements-engineering",
+      "tags": [
+        "requirements",
+        "property-management",
+        "system-neutral",
+        "procurement",
+        "framework"
+      ],
+      "created": "2026-02-05",
+      "last_updated": "2026-02-05",
+      "created_with": "ChatGPT (Strukturarkitekt-läge)",
+      "file_path": "concepts/frameworks/rf-01-requirements-framework.md",
+      "url": "https://raw.githubusercontent.com/75Doc/artifact-library/main/concepts/frameworks/rf-01-requirements-framework.md",
+      "related_artifacts": [
+        "DL-01",
+        "CL-01",
+        "PR-01"
+      ],
+      "applicability": [
+        "property-management",
+        "public-sector",
+        "procurement",
+        "system-specification"
+      ],
+      "description": "Fyrlagarmodell för systemneutral kravspecifikation: Funktionsområden → Kravtyper → Ambitionsnivå → Systemneutralitet. Minskar risk för tidig inlåsning."
+    }
+  ],
+  "planned_artifacts": [
+    {
+      "id": "DL-01",
+      "title": "Beslutslogik: ett fastighetssystem vs flera",
+      "status": "planned",
+      "type": "decision-model"
+    },
+    {
+      "id": "CL-01",
+      "title": "Checklista: systemneutrala krav",
+      "status": "planned",
+      "type": "template"
+    },
+    {
+      "id": "PR-01",
+      "title": "Princip: verksamhetsbehov före systemstruktur",
+      "status": "planned",
+      "type": "principle"
+    }
+  ],
+  "categories": {
+    "organizational-models": {
+      "name": "Organisationsmodeller",
+      "description": "Organisationsstrukturer och styrmodeller",
+      "path": "concepts/organizational-models/"
+    },
+    "frameworks": {
+      "name": "Ramverk",
+      "description": "Ramverk och metodiker",
+      "path": "concepts/frameworks/"
+    },
+    "processes": {
+      "name": "Processer",
+      "description": "Processmodeller och arbetsflöden",
+      "path": "concepts/processes/"
+    },
+    "decision-models": {
+      "name": "Beslutsmodeller",
+      "description": "Beslutslogik och mallar",
+      "path": "concepts/decision-models/"
+    },
+    "templates": {
+      "name": "Mallar",
+      "description": "Återanvändbara mallar och checklistor",
+      "path": "templates/"
+    }
+  },
+  "status_definitions": {
+    "locked": "Fastställd, används i produktion, inga ändringar utan formellt beslut",
+    "stable": "Testad och godkänd för återanvändning, kan itereras",
+    "draft": "Under utveckling, inte redo för produktion",
+    "planned": "Planerad men inte påbörjad"
+  }
+}
