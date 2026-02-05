@@ -53,7 +53,7 @@ artifact-library/
 
 **Exempel på URL för programmatisk åtkomst:**
 ```
-https://raw.githubusercontent.com/[75Doc]/artifact-library/main/concepts/frameworks/rf-01-requirements-framework.md
+https://raw.githubusercontent.com/75Doc/artifact-library/main/concepts/frameworks/rf-01-requirements-framework.md
 ```
 
 ## Metadata-format
