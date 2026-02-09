@@ -3,7 +3,7 @@
     "name": "Artifact Library",
     "description": "Återanvändbara konceptuella artefakter för organisationsutveckling och systemutveckling",
     "repository": "https://github.com/75Doc/artifact-library",
-    "last_updated": "2026-02-05",
+    "last_updated": "2026-02-09",
     "version": "1.0"
   },
   "artifacts": [
@@ -64,6 +64,38 @@
         "system-specification"
       ],
       "description": "Fyrlagarmodell för systemneutral kravspecifikation: Funktionsområden → Kravtyper → Ambitionsnivå → Systemneutralitet. Minskar risk för tidig inlåsning."
+    },
+    {
+      "id": "int-01",
+      "title": "Generell kravspecifikation – Integration Fastighetssystem ↔ Ekonomisystem (Raindance)",
+      "version": "1.0",
+      "status": "stable",
+      "type": "specification",
+      "domain": "integration-architecture",
+      "tags": [
+        "integration",
+        "property-management",
+        "finance-system",
+        "raindance",
+        "api",
+        "data-model",
+        "architecture"
+      ],
+      "created": "2026-02-09",
+      "last_updated": "2026-02-09",
+      "file_path": "concepts/specifications/int-01-property-finance-integration.md",
+      "url": "https://raw.githubusercontent.com/75Doc/artifact-library/main/concepts/specifications/int-01-property-finance-integration.md",
+      "related_artifacts": [
+        "RF-01"
+      ],
+      "applicability": [
+        "property-management",
+        "public-sector",
+        "procurement",
+        "system-integration",
+        "finance"
+      ],
+      "description": "Generell integrationsspspecifikation för fastighetssystem till ekonomisystem (Raindance). Definierar datamodell, arkitekturprinciper, och krav på datakvalitet, validering, felhantering och säkerhet."
     }
   ],
   "planned_artifacts": [
@@ -96,6 +128,11 @@
       "name": "Ramverk",
       "description": "Ramverk och metodiker",
       "path": "concepts/frameworks/"
+    },
+    "specifications": {
+      "name": "Specifikationer",
+      "description": "Kravspecifikationer och tekniska specifikationer",
+      "path": "concepts/specifications/"
     },
     "processes": {
       "name": "Processer",
