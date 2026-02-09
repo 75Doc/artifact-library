@@ -17,6 +17,7 @@ artifact-library/
 ├── concepts/
 │   ├── organizational-models/    # Organisationsstrukturer och styrmodeller
 │   ├── frameworks/                # Ramverk och metodiker
+│   ├── specifications/            # Kravspecifikationer och tekniska specifikationer
 │   ├── processes/                 # Processmodeller
 │   └── decision-models/           # Beslutslogik och mallar
 ├── templates/                     # Återanvändbara mallar
@@ -38,6 +39,13 @@ artifact-library/
   - Systemneutral kravhantering
   - Stöd för upphandling och beslutsfattande
   - Fyrlagarmodell: Funktionsområden → Kravtyper → Ambitionsnivå → Systemneutralitet
+
+#### Specifikationer
+- **[INT-01 - Integration Fastighetssystem ↔ Ekonomisystem](concepts/specifications/int-01-property-finance-integration.md)** (STABIL)
+  - Generell integrationsspspecifikation för fastighetssystem till ekonomisystem (Raindance)
+  - Datamodell för kund, faktura, fakturarad, konteringsrad
+  - Arkitekturprinciper: lös koppling, standard före special, spårbarhet, idempotens
+  - Krav på datakvalitet, validering, felhantering, säkerhet och drift
 
 ## Hur artefakterna används
 
@@ -65,7 +73,7 @@ id: [unik identifierare]
 title: [beskrivande titel]
 version: [versionsnummer]
 status: [locked/stable/draft]
-type: [organizational-model/framework/process/template]
+type: [organizational-model/framework/specification/process/template]
 domain: [ämnesområde]
 tags: [sökbara nyckelord]
 created: [datum]
@@ -88,6 +96,7 @@ Artefakter läggs till genom:
 2. Använd metadata-formatet
 3. Skriv tydlig, systemneutral text
 4. Länka till relaterade artefakter
+5. Uppdatera metadata/catalog.json
 
 ## Principer
 
